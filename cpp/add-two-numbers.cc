@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/add-two-numbers
-// fllin, 20170608
+// fllin, 2017-6-8
 
 /**
  * Definition for singly-linked list.
@@ -22,7 +22,7 @@ public:
       int y = h2 != nullptr ? h2->val : 0;
       int sum = x + y + carry;
       carry = sum / 10;
-      cur->next = new ListNode(sum %10);
+      cur->next = new ListNode(sum % 10);
       cur = cur->next;
       h1 = h1 != nullptr ? h1->next : nullptr;
       h2 = h2 != nullptr ? h2->next : nullptr;

@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/two-sum/
-// fllin, 20170608
+// fllin, 2017-6-8
 
 class Solution {
 public:
