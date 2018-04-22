@@ -4,3 +4,6 @@ Guidelines:
 2. 文件命名，如https://leetcode.com/problems/shuffle-an-array/，文件名就为shuffle-an-array.cc
 3. 第一行注释为题目url，如 // https://leetcode.com/problems/shuffle-an-array/
 4. 版权： // chi zhang, 2017-5-10
+
+questions:
+BFS 如何确定层数，如果不记录每个node的层数
